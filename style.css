@@ -13,11 +13,3 @@
  GitHub Theme URI: https://github.com/AnushkaKRajasingha/Ahox-child/
  GitHub Branch:    master
 */
-@media only all and (max-width:320em) { 
-	.social-icon ul{
-	margin-right: 5px !important;
-	}
-	.social-icon ul li{
-	margin-left: 2px !important;
-	}
-}
