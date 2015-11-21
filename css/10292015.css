@@ -1,0 +1,9 @@
+@CHARSET "ISO-8859-1";
+.home h1.page-title{
+	font-family: "blackjackregular"
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+	.home h1.page-title{text-align: center;}
+}

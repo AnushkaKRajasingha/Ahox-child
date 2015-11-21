@@ -6,3 +6,8 @@ function ahox_childtheme_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'ahox_childtheme_scripts' );
+
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+	add_theme_support( 'woocommerce' );
+}
